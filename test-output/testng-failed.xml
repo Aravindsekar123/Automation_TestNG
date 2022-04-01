@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.testng.impleamentation.Automationpractice_Runner">
+        <methods>
+          <include name="Sign_In"/>
+          <include name="Sign_Out"/>
+          <include name="Printed_Dress"/>
+          <include name="After_Browser_Launch"/>
+        </methods>
+      </class> <!-- com.testng.impleamentation.Automationpractice_Runner -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
